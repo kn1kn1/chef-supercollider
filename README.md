@@ -1,6 +1,6 @@
 supercollider Cookbook
 ======================
-Opscode Chef cookbook for supercollider on Ubuntu.
+[Opscode Chef](http://www.opscode.com/chef/) cookbook for supercollider on Ubuntu.
 
 Requirements
 ------------
@@ -8,7 +8,7 @@ Requirements
 - Ubuntu
 
 #### cookbook
-- apt
+- [apt](http://community.opscode.com/cookbooks/apt)
 
 Usage
 -----
