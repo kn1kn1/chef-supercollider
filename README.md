@@ -12,6 +12,7 @@ Requirements
 
 Usage
 -----
+#### supercollider::default
 1. Include `supercollider` in your node's `run_list`:
 ```json
 {
@@ -32,5 +33,5 @@ MIT
 http://opensource.org/licenses/mit-license.php
 
 Author
--------------------
+------
 Kenichi Kanai
