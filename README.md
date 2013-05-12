@@ -24,7 +24,7 @@ Usage
 ```
 
 2. Cook your node with the runlist.
-3. Restart the node with GUI and AUDIO (otherwise staring scsynth will not success).
+3. Restart the node with GUI and AUDIO (otherwise staring scsynth will be fail).
 4. Login as 'supercollider' with password 'supercollider'.
 
 
