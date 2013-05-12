@@ -28,8 +28,19 @@ package "supercollider" do
   action :install
 end
 
+# adduser
+newuser = "supercollider"
+user "supercollider" do
+  username newuser
+  password "$6$eMNIaqLd$zfAc3cPc/fvY1gpI/P93Lsu5uMkg0AosO3/bgS6ASxZwGy0i34ppxZLA73EFiGqQ3HOGTnOZSAAaLaUBmdbCk/" # supercollider
+  home  "/home/#{newuser}"
+  shell "/bin/bash"
+  supports :manage_home => true
+  action [:create, :manage]
+end
+
 # jack
-username = "vagrant"
+username = newuser
 home = "/home/#{username}"
 
 jackdrc = "#{home}/.jackdrc"
