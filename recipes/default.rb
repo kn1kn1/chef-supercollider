@@ -91,7 +91,17 @@ EOL
   not_if "grep -q '# jack & supercollider' /etc/security/limits.conf"
 end
 
-execute "reboot" do
-  not_if "uname -a | grep -q lowlatency"
-  command "reboot"
-end
+# TODO prompt user to reboot with GUI and AUDIO.
+# ruby_block "Logging" do
+#   block do
+#     Chef::Log.warn "Supercollider installation succeeded. Reboot the node with GUI and AUDIO."
+#   end
+#   action :create
+#   not_if "uname -a | grep -q lowlatency"
+# end
+
+
+# execute "reboot" do
+#   not_if "uname -a | grep -q lowlatency"
+#   command "reboot"
+# end
