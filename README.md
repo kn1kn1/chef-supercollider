@@ -5,7 +5,7 @@ supercollider Cookbook
 Requirements
 ------------
 #### operating system
-- Ubuntu
+- Ubuntu 12.04
 
 #### cookbook
 - [apt](http://community.opscode.com/cookbooks/apt)
